@@ -41,7 +41,13 @@ NS_ASSUME_NONNULL_BEGIN
  *  撤回消息
  *  @param message 消息
  */
-- (void)withdrawMessages:(SYIMMessage *)message;
+- (void)onWithdrawMsg:(SYIMMessage *)message;
+
+
+/**
+ * 命令消息
+ */
+- (void)onCmdMsg:(SYIMMessage *)message;
 
 #warning 以下方法暂时废弃
 /**
@@ -60,15 +66,6 @@ NS_ASSUME_NONNULL_BEGIN
  * 自定义消息
  */
 - (void)onCustomMsg:(SYIMMessage *)message;
-
-/**
- * 命令消息
- */
-- (void)onCmdMsg:(SYIMMessage *)message;
-/**
- * 撤回消息
- */
-- (void)onWithdrawMsg:(SYIMMessage *)message;
 
 /**
  * 通知消息
