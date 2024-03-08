@@ -1,0 +1,6 @@
+framework module SYIM {
+  umbrella header "SYIM-umbrella.h"
+
+  export *
+  module * { export * }
+}

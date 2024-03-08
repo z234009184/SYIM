@@ -1,0 +1,13 @@
+//
+//  SYIMMessage+WCTColumnCoding.h
+//  SYIM
+//
+//  Created by sunchenglei on 2024/2/17.
+//
+
+#import "SYIMMessage.h"
+#import <WCDB/WCDB.h>
+
+@interface SYIMMessage (WCTColumnCoding) <WCTColumnCoding>
+
+@end
