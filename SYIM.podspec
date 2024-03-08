@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "SYIM"
-  s.version = "0.2.6"
+  s.version = "0.2.7"
   s.summary = "A short description of SYIM."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"z234009184"=>"234009184@qq.com"}
@@ -21,5 +21,4 @@ Pod::Spec.new do |s|
   s.dependency 'ReactiveObjC'
   s.dependency 'WCDB','~>1.0.7.5'
   s.dependency 'CocoaLumberjack'
-  s.dependency 'GMObjC'
 end
